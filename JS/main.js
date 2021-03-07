@@ -1,2 +1,5 @@
 import dog from './components/items.js';
-console.log(dog)
+import {
+    showItem
+} from './components/show.js';
+showItem(dog, 'h1')
